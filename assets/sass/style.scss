@@ -23,6 +23,29 @@ img {
   width: 100%;
 }
 
+.login{
+  .heloo{
+    text-align: right;
+    margin-right: 55px;
+    i{
+      color: #68bb2b;
+    }
+  }
+}
+
+.account-drop-down{
+  .btn{
+    border: 2px solid #68bb2b;
+    i{
+      color: #68bb2b !important;
+    }
+    &:focus{
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+}
+
 // =======================================================================================================
 // start path
 .path {
@@ -493,40 +516,40 @@ img {
   .ads-now {
     // border: 1px solid #ddd;
     position: relative;
-    .nav-pills{
+    .nav-pills {
       position: absolute;
       top: 7px;
       left: 5px;
-      .nav-link{
+      .nav-link {
         background-color: #fff;
-        color:#626262;
+        color: #626262;
         padding: 2px;
         padding-right: 5px;
         padding-left: 5px;
         margin-left: 10px;
         font-size: 14px;
       }
-      .active{
+      .active {
         background-color: #626262;
         color: #fff;
       }
     }
     .head {
       text-align: right;
-      border: 1px solid #F5F5F5;
-      background-color: #F5F5F5;
+      border: 1px solid #f5f5f5;
+      background-color: #f5f5f5;
       padding: 10px;
     }
     .card {
       background-color: #f6f8fa;
       border: 0;
-      .card-img{
+      .card-img {
         // display: inline-block;
         // background-size: cover;
         // background-position: center;
         // height: 191px;
         // border: 0;
-        img{
+        img {
           height: 181px;
         }
       }
@@ -561,7 +584,7 @@ img {
       padding: 5px 20px 0 0;
     }
     .key-words {
-      background-color: #EFEFEF;
+      background-color: #efefef;
       position: absolute;
       bottom: 0;
       width: 100%;
@@ -574,7 +597,7 @@ img {
       .last {
         position: absolute;
         left: 2%;
-        color: #20ba4a;;
+        color: #20ba4a;
         font-weight: bold;
       }
     }
@@ -585,9 +608,7 @@ img {
     }
   }
 
-
-
-  .place-ads{
+  .place-ads {
     .most-search-header {
       background-color: $mainColor;
       text-align: right;
@@ -600,14 +621,14 @@ img {
         font-size: 16px;
       }
     }
-    .card{
+    .card {
       border: 0;
-      ul{
-        li{
+      ul {
+        li {
           float: right;
           width: 50%;
           position: relative;
-          &::before{
+          &::before {
             content: "";
             right: -10px;
             top: 50%;
@@ -618,7 +639,7 @@ img {
             background-color: $mainColor;
             border-radius: 50%;
           }
-          a{
+          a {
             text-decoration: none;
             color: #626262;
             font-size: 14px;
@@ -628,7 +649,6 @@ img {
     }
   }
 
-  
   .most-search {
     .most-search-header {
       background-color: $mainColor;
@@ -657,7 +677,7 @@ img {
       margin-top: 20px;
       text-align: center;
       height: 420px;
-      background-color: #FBFBFB;
+      background-color: #fbfbfb;
 
       h6 {
         line-height: 420px;
@@ -674,7 +694,6 @@ img {
   }
 }
 
-
 // satrt footer
 footer {
   background-color: #20ba4a;
@@ -686,7 +705,7 @@ footer {
     text-align: right;
     position: relative;
     color: #fff;
-    img{
+    img {
       width: 205px;
       height: 71px;
     }
@@ -779,83 +798,83 @@ footer {
   }
 }
 
-.login{
+.login {
   margin-bottom: 100px;
-  .login-head{
+  .login-head {
     text-align: center;
     margin-top: 40px;
     font-size: 30px;
     margin-bottom: 30px;
   }
-  .login-form{
+  .login-form {
     background-color: #fff;
     width: 60%;
     margin: auto;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 40px;
-    .form-group{
-      .form-control{
+    .form-group {
+      .form-control {
         height: 50px;
       }
     }
-    .form-check{
-      label{
+    .form-check {
+      label {
         font-size: 14px;
         font-weight: bold;
       }
     }
-    .txt-l{
+    .txt-l {
       text-align: left;
-      a{
+      a {
         color: $mainColor;
         font-size: 15px;
       }
     }
-    .btn-login{
+    .btn-login {
       margin-top: 30px;
       text-align: center;
-      .btn{
+      .btn {
         background-color: $mainColor;
         color: #fff;
         padding: 11px;
       }
     }
-    .txt-c{
+    .txt-c {
       text-align: center;
       margin-top: 20px;
       font-weight: bold;
-      a{
+      a {
         color: $mainColor;
       }
     }
   }
 }
 
-.rigister{
+.rigister {
   margin-bottom: 100px;
-  .rigister-head{
+  .rigister-head {
     text-align: center;
     margin-top: 40px;
     font-size: 30px;
     margin-bottom: 30px;
   }
-  .rigister-form{
+  .rigister-form {
     background-color: #fff;
     width: 60%;
     margin: auto;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 40px;
-    .form-check{
+    .form-check {
       font-weight: bold;
       font-size: 14px;
-      a{
+      a {
         color: $mainColor;
       }
     }
-    .btn-login{
+    .btn-login {
       margin-top: 30px;
       text-align: center;
-      .btn{
+      .btn {
         background-color: $mainColor;
         color: #fff;
         padding: 11px;
@@ -867,12 +886,12 @@ footer {
 // start my account page =====================================================================================================
 .my-account {
   .my-account-navs {
-    border: 1px solid #F5F5F5;
+    border: 1px solid #f5f5f5;
     margin-top: 50px;
     border-radius: 6px;
 
     .card-header {
-      background-color: #F5F5F5;
+      background-color: #f5f5f5;
       font-size: 18px;
       border-bottom: 0;
       height: 60px;
@@ -885,7 +904,7 @@ footer {
       padding: 0px;
       padding: 0 20px 0 20px;
       line-height: 65px;
-      border-bottom: 1px solid #F5F5F5;
+      border-bottom: 1px solid #f5f5f5;
       border-radius: 0;
       color: #555;
       font-size: 15px;
@@ -917,7 +936,7 @@ footer {
     margin-top: 50px;
 
     .most-search-header {
-      background-color: #F5F5F5;
+      background-color: #f5f5f5;
       height: 50px;
       text-align: right;
       color: #626262;
@@ -938,7 +957,7 @@ footer {
         }
 
         .form-control {
-          height: calc(1.5em + .75rem + 6px);
+          height: calc(1.5em + 0.75rem + 6px);
         }
       }
 
@@ -947,7 +966,7 @@ footer {
         margin-top: 10px;
 
         .btn {
-          background-color: #03BBC3;
+          background-color: #03bbc3;
           color: #fff;
           width: 40%;
         }
@@ -957,7 +976,7 @@ footer {
 
   .messages {
     .card {
-      border: 1px solid #F5F5F5;
+      border: 1px solid #f5f5f5;
       padding: 15px;
       border-radius: 8px;
       margin-top: 25px;
@@ -974,7 +993,6 @@ footer {
   }
 }
 
-
 // ====================================================start 7 page ================================================================
 
 // start add ads
@@ -990,7 +1008,7 @@ footer {
     font-size: 17px;
     border: 0;
     border-radius: 6px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     padding: 15px;
   }
 
@@ -1066,8 +1084,6 @@ footer {
   }
 }
 
-
-
 // ================================================================================================================================================
 .notifaction-page {
   margin-bottom: 90px;
@@ -1084,16 +1100,16 @@ footer {
       padding-bottom: 20px;
       padding-top: 20px;
       border: 0;
-      background-color: #F5F5F5;
+      background-color: #f5f5f5;
       margin-bottom: 20px;
       padding-left: 10px;
       border-radius: 5px;
-      .notification-name{
+      .notification-name {
         color: $mainColor;
         text-decoration: none;
       }
-      .notification-place{
-        color: #69BE45;
+      .notification-place {
+        color: #69be45;
         text-decoration: none;
       }
       i {
@@ -1200,11 +1216,11 @@ footer {
     }
   }
 
-  .department-links{
-    a{
+  .department-links {
+    a {
       font-size: 14px;
       margin-left: 5px;
-      background-color: #C5C5C5;
+      background-color: #c5c5c5;
       color: #fff;
       border-radius: 5px;
       padding: 3px;
@@ -1213,25 +1229,24 @@ footer {
       display: inline-block;
       margin-bottom: 5px;
     }
-
   }
 
   .ads-info {
     .ads-header {
       position: relative;
       margin-top: 40px;
-      .share-add{
+      .share-add {
         position: absolute;
         left: 0;
         top: -10px;
-        a{
+        a {
           color: #585858;
-          i{
+          i {
             width: 53px;
             height: 53px;
             border-radius: 50%;
-            background-color: #C5C5C5;
-            color: #CE1B1B;
+            background-color: #c5c5c5;
+            color: #ce1b1b;
             text-align: center;
             line-height: 53px;
             font-size: 20px;
@@ -1242,17 +1257,17 @@ footer {
         margin-top: 15px;
         font-size: 20px;
       }
-      .ads-information{
+      .ads-information {
         margin-top: 80px;
-        background-color: #F7F7F7;
+        background-color: #f7f7f7;
         padding: 30px;
         padding-top: 40px;
         padding-bottom: 40px;
-        i{
+        i {
           color: #585858;
           margin-left: 5px;
         }
-        a{
+        a {
           color: #585858;
           font-size: 14px;
         }
@@ -1293,7 +1308,7 @@ footer {
           margin-top: 10px;
           padding: 0;
           line-height: 65px;
-          background-color: #F7F7F7;
+          background-color: #f7f7f7;
           width: 100%;
           height: 65px;
 
@@ -1496,7 +1511,7 @@ footer {
         width: 100%;
         padding: 10px;
         border: 1px solid #eee;
-        height: calc(1.5em + .75rem + 10px);
+        height: calc(1.5em + 0.75rem + 10px);
 
         &::placeholder {
           font-size: 13px;
@@ -1514,8 +1529,8 @@ footer {
       }
 
       button {
-        border: 1px solid #D7127B;
-        background-color: #D7127B;
+        border: 1px solid #d7127b;
+        background-color: #d7127b;
         color: #fff;
         padding: 10px;
       }
@@ -1601,7 +1616,7 @@ footer {
           margin: 0;
 
           a {
-            color: #69BE45;
+            color: #69be45;
             text-decoration: none;
             font-size: 14px;
           }
@@ -1614,15 +1629,15 @@ footer {
 
         .price {
           margin-right: 60px;
-          color: #D7127B;
+          color: #d7127b;
         }
       }
     }
-    .card-person-info{
+    .card-person-info {
       text-align: center;
       padding: 20px;
       padding-bottom: 10px;
-      .card-img{
+      .card-img {
         width: 65px;
         height: 65px;
         margin: auto;
@@ -1630,27 +1645,217 @@ footer {
         background-position: center;
         background-size: cover;
       }
-      .card-title{
+      .card-title {
         font-size: 22px;
       }
-      .rate{
-        i{
+      .rate {
+        i {
           color: $mainColor;
         }
       }
-      .btn{
+      .btn {
         background-color: #20ba4a;
         color: #fff;
         margin-top: 10px;
         padding: 11px;
       }
     }
-    .send-msg{
+    .send-msg {
       margin-top: 10px;
-      a{
+      a {
         background-color: $mainColor;
         color: #fff;
         padding: 11px;
+      }
+    }
+  }
+}
+
+// start blacklist
+.blacklist {
+  text-align: right;
+  margin-top: 90px;
+  margin-bottom: 180px;
+  h5 {
+    color: $mainColor;
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+  }
+  form {
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      &::placeholder {
+        font-size: 14px;
+      }
+    }
+    button {
+      margin-top: 15px;
+      width: 120px;
+      background-color: $mainColor;
+      border: 1px solid $mainColor;
+      color: #fff;
+      padding: 10px;
+    }
+  }
+}
+
+.commition {
+  margin-top: 40px;
+  .commition-header {
+    font-size: 30px;
+    color: $mainColor;
+  }
+  .commition-calc {
+    font-size: 30px;
+    color: $mainColor;
+    margin-top: 30px;
+  }
+  .calc-par {
+    span {
+      font-weight: bold;
+    }
+    .form-control {
+      width: 10%;
+      display: inline-block;
+    }
+  }
+  .commition-fee {
+    margin-top: 60px;
+    h5 {
+      font-size: 30px;
+      color: $mainColor;
+    }
+  }
+  .table {
+    img {
+      width: 60%;
+    }
+  }
+  .transfer,
+  .note {
+    margin-top: 40px;
+  }
+  .transfer {
+    .transfer-head {
+      margin-bottom: 30px;
+    }
+    .form-control {
+      width: 80%;
+      height: 50px;
+    }
+    #textformtextarea {
+      height: 160px !important;
+    }
+    .btn {
+      background-color: $mainColor;
+      width: 40%;
+      color: #fff;
+      margin-top: 20px;
+    }
+  }
+}
+
+// start edit ads
+.edit-ads {
+  text-align: right;
+  margin-top: 70px;
+  margin-bottom: 80px;
+  form {
+    input,
+    select {
+      height: calc(2.5em + 0.75rem + 2px);
+    }
+    label {
+      color: $mainColor;
+      font-weight: bold;
+    }
+    select {
+      font-size: 14px;
+    }
+    input {
+      font-size: 14px;
+    }
+    .file-upload {
+      label {
+        margin-bottom: 0 !important;
+      }
+    }
+    .img-from-file {
+      img {
+        width: 20%;
+      }
+    }
+    button {
+      color: #fff;
+      background-color: $mainColor;
+      border: 1px solid $mainColor;
+      padding: 10px;
+    }
+  }
+}
+
+// start who-us
+.who-us {
+  margin-top: 80px;
+  margin-bottom: 90px;
+  text-align: right;
+  .who-header {
+    color: $mainColor;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  p {
+    color: #777;
+    .big-word {
+      color: $mainColor;
+      font-size: 23px;
+      font-weight: bold;
+    }
+    line-height: 40px;
+  }
+}
+
+
+// start contact page
+.contact-section {
+  margin-top: 100px;
+  margin-bottom: 90px;
+
+  .contact-header {
+    font-size: 25px;
+  }
+
+  form {
+    .input-msg-subject {
+      border: 0;
+      border-bottom: 1px solid #e6e6e6;
+      padding-bottom: 15px;
+      width: 50%;
+      margin: 20px 0px 20px 0px;
+      padding: 5px;
+
+      &:focus {
+        box-shadow: none !important;
+        outline: 0 !important;
+      }
+    }
+
+    .form-text-area {
+      margin-top: 20px;
+    }
+
+    .btn-submit-form-contact {
+      text-align: left;
+
+      .btn {
+        color: #fff !important;
+        background-color: $mainColor;
+        border-radius: 5px !important;
+        width: 200px;
       }
     }
   }
@@ -1704,27 +1909,27 @@ footer {
       }
     }
   }
-  .search-bar form{
-    input{
+  .search-bar form {
+    input {
       margin-bottom: 10px;
     }
   }
-  .search-bar form button{
+  .search-bar form button {
     margin-top: 10px;
   }
-  .login{
-    .login-form{
-      .txt-l{
+  .login {
+    .login-form {
+      .txt-l {
         text-align: center;
       }
     }
   }
-.pagination{
-  width: 100%;
-  padding: 0;
-  margin-top: 20px;
-  overflow: auto;
-}
+  .pagination {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    overflow: auto;
+  }
 }
 
 @media (max-width: 524px) {
@@ -1780,47 +1985,59 @@ footer {
   .show-add-section .add-header span {
     position: inherit !important;
   }
-  .departments-side-bar .ads-now .nav-pills{
+  .departments-side-bar .ads-now .nav-pills {
     position: unset;
   }
-  .login, .rigister{
-    .login-form, .rigister-form{
+  .login,
+  .rigister {
+    .login-form,
+    .rigister-form {
       padding: 10px;
       width: 100%;
     }
   }
-  .card-dep-100{
+  .card-dep-100 {
     width: 100% !important;
   }
-  .new-ads-most-search .new-ads .card .card-footer{
+  .new-ads-most-search .new-ads .card .card-footer {
     margin-top: 10px;
   }
-  .notifaction-page{
-    .card{
+  .notifaction-page {
+    .card {
       padding-right: 20px;
       padding-top: 30px !important;
     }
-    i{
+    i {
       position: unset !important;
       margin-top: 20px;
       margin-bottom: -20px;
     }
-    .card-text{
+    .card-text {
       margin: 0 !important;
       margin-top: 0 !important;
     }
   }
-  .show-ads .ads-info .ads-header .share-add{
+  .show-ads .ads-info .ads-header .share-add {
     position: unset;
-    a{
+    a {
       display: block;
     }
   }
-  .show-ads .slider-top .item-slide img{
+  .show-ads .slider-top .item-slide img {
     height: 280px !important;
   }
-  .show-ads .ads-info .ads-header .ads-information{
+  .show-ads .ads-info .ads-header .ads-information {
     margin-top: 20px;
+  }
+  .commition {
+    table {
+      img {
+        width: 100% !important;
+      }
+    }
+    .form-control {
+      width: 100% !important;
+    }
   }
 }
 
@@ -1881,7 +2098,7 @@ footer {
 
   .most-search {
     .most-search-header {
-      background-color: #F5F5F5;
+      background-color: #f5f5f5;
       height: 50px;
       text-align: right;
       color: #626262;
@@ -1902,12 +2119,11 @@ footer {
       }
     }
 
-
     .card-space-ads {
       margin-top: 20px;
       text-align: center;
       height: 420px;
-      background-color: #FBFBFB;
+      background-color: #fbfbfb;
 
       h6 {
         line-height: 420px;
@@ -1925,7 +2141,7 @@ footer {
 
   .new-ads {
     .card {
-      border: 1px solid #E9E9E9;
+      border: 1px solid #e9e9e9;
       margin-top: 20px;
 
       .card-title {
@@ -1943,7 +2159,7 @@ footer {
           font-size: 15px;
 
           .name {
-            color: #69BE45;
+            color: #69be45;
           }
         }
 
@@ -1958,12 +2174,12 @@ footer {
 
       .card-footer {
         border: 0;
-        background-color: #ECECEC;
+        background-color: #ececec;
 
         .price {
           position: absolute;
           left: 5%;
-          color: #D7127B;
+          color: #d7127b;
         }
       }
     }
@@ -1973,20 +2189,20 @@ footer {
       margin-top: 20px;
       text-align: center;
       height: 191px;
-      background-color: #FBFBFB;
+      background-color: #fbfbfb;
 
       h6 {
         line-height: 191px;
       }
     }
   }
-  .special-card{
+  .special-card {
     border: 1px solid $mainColor !important;
   }
 
-  .card-img{
+  .card-img {
     position: relative;
-    img{
+    img {
       height: 150px;
     }
     .special-ad {
@@ -1997,12 +2213,12 @@ footer {
       top: 20px;
       right: 20px;
       font-size: 14px;
-      i{
+      i {
         color: $mainColor;
       }
     }
   }
-} 
+}
 
 %inilizeFontAwesome {
   font-family: "Font Awesome 5 Free";

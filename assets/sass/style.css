@@ -7,7 +7,7 @@ textarea:focus {
 }
 
 body {
-  direction: ltr;
+  direction: rtl;
   font-family: "Cairo", sans-serif;
 }
 
@@ -20,36 +20,16 @@ img {
   width: 100%;
 }
 
-.login .heloo {
-  text-align: right;
-  margin-right: 55px;
-}
-.login .heloo i {
-  color: #68bb2b;
-}
-
-.account-drop-down .btn {
-  border: 2px solid #68bb2b;
-}
-.account-drop-down .btn i {
-  color: #68bb2b !important;
-}
-.account-drop-down .btn:focus {
-  outline: 0;
-  box-shadow: none;
-}
-
-
 .path {
-  text-align: left;
+  text-align: right;
   background-color: #ddd;
   padding: 20px;
 }
 .path span::before {
   font-family: "Font Awesome 5 Free";
-  margin-right: 6px;
   margin-left: 6px;
-  content: "\f105";
+  margin-right: 6px;
+  content: "";
   font-weight: 900;
   font-size: 13px;
 }
@@ -68,7 +48,7 @@ img {
 .pagination {
   width: 50%;
   margin: auto;
-  padding-left: 260px;
+  padding-right: 260px;
   padding-top: 30px;
   margin-bottom: 40px;
 }
@@ -83,7 +63,7 @@ img {
   line-height: 30px;
   border-radius: 50%;
   color: #000;
-  margin-left: 5px;
+  margin-right: 5px;
   border: 1px solid #bac6d3;
 }
 .pagination .active .page-link {
@@ -100,21 +80,21 @@ img {
   border-bottom: 1px solid #ddd;
 }
 .top-header .info span:first-child {
-  padding: 10px 10px 10px 0px;
+  padding: 10px 0px 10px 10px;
 }
 .top-header .info span:last-child {
-  padding: 10px 0px 10px 10px;
+  padding: 10px 10px 10px 0px;
 }
 .top-header .info i {
   color: #e2b833;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 .top-header .social {
-  text-align: right;
+  text-align: left;
 }
 .top-header .social i {
   color: #555;
-  margin-left: 5px;
+  margin-right: 5px;
   transition: all 0.5s ease;
 }
 .top-header .social i:hover {
@@ -129,22 +109,22 @@ img {
   border-bottom: 1px solid #ddd;
 }
 .top-header .info span:first-child {
-  padding: 0px 10px 0px 0px;
-  border-right: 1px solid #ddd;
+  padding: 0px 0px 0px 10px;
+  border-left: 1px solid #ddd;
 }
 .top-header .info span:last-child {
-  padding: 10px 0px 10px 10px;
+  padding: 10px 10px 10px 0px;
 }
 .top-header .info i {
   color: #e2b833;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 .top-header .social {
-  text-align: right;
+  text-align: left;
 }
 .top-header .social i {
   color: #555;
-  margin-left: 5px;
+  margin-right: 5px;
   transition: all 0.5s ease;
 }
 .top-header .social i:hover {
@@ -178,7 +158,7 @@ img {
 .upper-nav .login ul li .btn-login i {
   font-size: 14px;
   color: #e2b833;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 .upper-nav .login ul li .btn-rigister {
   border: 2px solid #e2b833;
@@ -187,7 +167,7 @@ img {
 .upper-nav .login ul li .btn-rigister i {
   font-size: 14px;
   color: #e2b833;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 .upper-nav .login ul li .btn-rigister:hover {
   background-color: #e2b833;
@@ -208,7 +188,7 @@ img {
   color: #e2b833;
 }
 .upper-nav .login ul li:last-child {
-  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 .upper-nav .login .lang a {
   color: #000;
@@ -232,8 +212,8 @@ img {
   padding: 20px;
 }
 .search-bar .container {
-  padding-right: 0px !important;
   padding-left: 0px !important;
+  padding-right: 0px !important;
   max-width: 1190px;
 }
 .search-bar form {
@@ -242,7 +222,7 @@ img {
 .search-bar form img {
   position: absolute;
   top: 15%;
-  margin-left: 5px;
+  margin-right: 5px;
   width: 10%;
 }
 .search-bar form input,
@@ -259,7 +239,7 @@ img {
   padding: 5px !important;
   font-size: 15px;
   width: 100%;
-  padding-left: 30px !important;
+  padding-right: 30px !important;
 }
 .search-bar form button {
   margin-top: -3px;
@@ -274,7 +254,7 @@ img {
   border: 1px solid #f5f5f5;
   background-color: #f5f5f5;
   padding: 10px;
-  text-align: left;
+  text-align: right;
 }
 .ads .border-col {
   border: 1px solid #edebf4;
@@ -299,17 +279,17 @@ img {
   border: 0;
 }
 .ads .ads-slider .slider-item .card {
-  direction: ltr;
+  direction: rtl;
 }
 .ads .ads-slider .slider-item .card .card-body {
   padding: 0 !important;
-  text-align: left;
+  text-align: right;
   background-color: #f5f5f5;
   border: 0;
 }
 .ads .ads-slider .slider-item .card .card-title {
   margin: 0;
-  padding: 10px 0 0 15px;
+  padding: 10px 15px 0 0;
   margin-bottom: 5px;
   font-size: 17px;
 }
@@ -324,25 +304,25 @@ img {
   color: #e2b833 !important;
 }
 .ads .ads-slider .slider-item .card span {
-  padding: 0 0 0 15px;
+  padding: 0 15px 0 0;
   font-size: 10px;
   color: #333;
-  margin-right: 15px;
+  margin-left: 15px;
 }
 .ads .ads-slider .slider-item .card span i {
-  margin-right: 4px;
+  margin-left: 4px;
 }
 .ads .ads-slider .slider-item .card .name {
-  padding: 0 0 0 15px;
+  padding: 0 15px 0 0;
   color: #e2b833;
 }
 .ads .ads-slider .slider-item .card .key-words {
-  padding: 10px 0 10px 15px;
+  padding: 10px 15px 10px 0;
   margin-top: 10px;
   background-color: #efefef;
 }
 .ads .ads-slider .slider-item .card .key-words span:first-child {
-  padding-left: 0 !important;
+  padding-right: 0 !important;
   font-size: 15px;
 }
 .ads .ads-slider .slider-item .card .key-words .last {
@@ -350,7 +330,7 @@ img {
   color: #e2b833;
   font-weight: bold;
   position: absolute;
-  right: 2%;
+  left: 2%;
 }
 .ads .ads-slider .slick-dots {
   text-align: center;
@@ -380,8 +360,8 @@ img {
 .departments-side-bar .departments .card-active {
   background-color: #fff;
   padding: 10px;
-  border-top-right-radius: 15px !important;
   border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   border: 1px solid #000;
 }
@@ -413,11 +393,11 @@ img {
 .departments-side-bar .departments .card .card-header h5 img {
   width: 20px;
   height: 20px;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 .departments-side-bar .departments .card .card-header .number {
   position: absolute;
-  right: 10px;
+  left: 10px;
   border: 1px solid #fff;
   width: 50px;
   text-align: center;
@@ -434,7 +414,7 @@ img {
 .departments-side-bar .departments .card .plus {
   position: absolute;
   bottom: -25px;
-  right: 20px;
+  left: 20px;
   cursor: pointer;
   transition: all 1s ease-in-out;
   display: block;
@@ -454,15 +434,15 @@ img {
 .departments-side-bar .ads-now .nav-pills {
   position: absolute;
   top: 7px;
-  right: 5px;
+  left: 5px;
 }
 .departments-side-bar .ads-now .nav-pills .nav-link {
   background-color: #fff;
   color: #626262;
   padding: 2px;
-  padding-left: 5px;
   padding-right: 5px;
-  margin-right: 10px;
+  padding-left: 5px;
+  margin-left: 10px;
   font-size: 14px;
 }
 .departments-side-bar .ads-now .nav-pills .active {
@@ -470,7 +450,7 @@ img {
   color: #fff;
 }
 .departments-side-bar .ads-now .head {
-  text-align: left;
+  text-align: right;
   border: 1px solid #F5F5F5;
   background-color: #F5F5F5;
   padding: 10px;
@@ -484,7 +464,7 @@ img {
 }
 .departments-side-bar .ads-now .card .card-title {
   font-size: 18px;
-  padding: 20px 0 0 20px;
+  padding: 20px 20px 0 0;
   color: #000 !important;
 }
 .departments-side-bar .ads-now .card .card-title a {
@@ -496,19 +476,19 @@ img {
 }
 .departments-side-bar .ads-now .card span {
   display: inline-block;
-  margin-right: 25px;
-  padding: 20px 0 0 20px;
+  margin-left: 25px;
+  padding: 20px 20px 0 0;
   color: #666;
 }
 .departments-side-bar .ads-now .card span i {
-  margin-right: 5px;
+  margin-left: 5px;
 }
 .departments-side-bar .ads-now .card .card-body {
   padding: 0;
 }
 .departments-side-bar .ads-now .name {
   color: #e2b833;
-  padding: 5px 0 0 20px;
+  padding: 5px 20px 0 0;
 }
 .departments-side-bar .ads-now .key-words {
   background-color: #EFEFEF;
@@ -523,7 +503,7 @@ img {
 }
 .departments-side-bar .ads-now .key-words .last {
   position: absolute;
-  right: 2%;
+  left: 2%;
   color: #20ba4a;
   font-weight: bold;
 }
@@ -534,7 +514,7 @@ img {
 }
 .departments-side-bar .place-ads .most-search-header {
   background-color: #e2b833;
-  text-align: left;
+  text-align: right;
   color: #fff;
   border-radius: 5px;
   margin-top: 50px;
@@ -548,13 +528,13 @@ img {
   border: 0;
 }
 .departments-side-bar .place-ads .card ul li {
-  float: left;
+  float: right;
   width: 50%;
   position: relative;
 }
 .departments-side-bar .place-ads .card ul li::before {
   content: "";
-  left: -10px;
+  right: -10px;
   top: 50%;
   transform: translate(0, -50%);
   position: absolute;
@@ -570,7 +550,7 @@ img {
 }
 .departments-side-bar .most-search .most-search-header {
   background-color: #e2b833;
-  text-align: left;
+  text-align: right;
   color: #fff;
   border-radius: 5px;
   margin-top: 50px;
@@ -603,11 +583,11 @@ footer {
   background-color: #20ba4a;
 }
 footer .logo-content-logo {
-  padding-left: 10px;
+  padding-right: 10px;
 }
 footer .logo {
   padding-bottom: 10px;
-  text-align: left;
+  text-align: right;
   position: relative;
   color: #fff;
 }
@@ -616,16 +596,16 @@ footer .logo img {
   height: 71px;
 }
 footer .logo .logo-content {
-  text-align: left;
+  text-align: right;
 }
 footer .logo .logo-content p {
   position: absolute;
-  left: 10%;
+  right: 10%;
   bottom: -1%;
   margin: 0;
 }
 footer .help-content {
-  padding-left: 90px;
+  padding-right: 90px;
   padding-top: 10px;
 }
 footer .help-content ul {
@@ -635,7 +615,7 @@ footer .help-content ul li {
   margin-top: 5px;
 }
 footer .social-content {
-  padding-left: 90px;
+  padding-right: 90px;
   padding-top: 10px;
 }
 footer .social-content .social i {
@@ -643,7 +623,7 @@ footer .social-content .social i {
   color: #fff;
   line-height: 30px;
   text-align: center;
-  margin-left: 15px;
+  margin-right: 15px;
   transition: all 0.5s ease;
   font-size: 20px;
 }
@@ -690,12 +670,12 @@ footer .copy h5 {
   font-size: 15px;
   color: #fff;
   margin-top: 20px;
-  float: left;
+  float: right;
 }
 footer .copy .logo-funun {
   width: 50%;
-  float: right;
-  text-align: right;
+  float: left;
+  text-align: left;
 }
 footer .copy .logo-funun img {
   width: 20%;
@@ -725,7 +705,7 @@ footer .copy .logo-funun img {
   font-weight: bold;
 }
 .login .login-form .txt-l {
-  text-align: right;
+  text-align: left;
 }
 .login .login-form .txt-l a {
   color: #e2b833;
@@ -794,7 +774,7 @@ footer .copy .logo-funun img {
   height: 60px;
   line-height: 60px;
   padding: 0;
-  padding-left: 10px;
+  padding-right: 10px;
 }
 .my-account .my-account-navs .nav-link {
   padding: 0px;
@@ -808,7 +788,7 @@ footer .copy .logo-funun img {
 }
 .my-account .my-account-navs .nav-link img {
   width: 20px;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 .my-account .my-account-navs .active {
   background-color: unset;
@@ -827,7 +807,7 @@ footer .copy .logo-funun img {
 .my-account .tab-content .most-search-header {
   background-color: #F5F5F5;
   height: 50px;
-  text-align: left;
+  text-align: right;
   color: #626262;
   border-radius: 8px;
 }
@@ -883,7 +863,7 @@ footer .copy .logo-funun img {
   padding: 15px;
 }
 .add-ads-add form {
-  text-align: left;
+  text-align: right;
   margin-top: 20px;
 }
 .add-ads-add form input,
@@ -961,7 +941,7 @@ footer .copy .logo-funun img {
   border: 0;
   background-color: #F5F5F5;
   margin-bottom: 20px;
-  padding-right: 10px;
+  padding-left: 10px;
   border-radius: 5px;
 }
 .notifaction-page .notification-cards .card .notification-name {
@@ -981,12 +961,12 @@ footer .copy .logo-funun img {
   line-height: 55px;
   color: #fff;
   position: absolute;
-  left: 20px;
+  right: 20px;
   top: 60%;
   transform: translate(0, -60%);
 }
 .notifaction-page .notification-cards .card .card-text {
-  margin-left: 90px;
+  margin-right: 90px;
   margin-top: 15px;
   line-height: 28px;
   font-size: 18px;
@@ -1018,7 +998,7 @@ footer .copy .logo-funun img {
   text-align: center;
   border-radius: 10px;
   color: #fff;
-  right: 2%;
+  left: 2%;
   top: 4%;
 }
 .show-ads .slider-top .slick-prev {
@@ -1055,13 +1035,13 @@ footer .copy .logo-funun img {
 }
 .show-ads .department-links a {
   font-size: 14px;
-  margin-right: 5px;
+  margin-left: 5px;
   background-color: #C5C5C5;
   color: #fff;
   border-radius: 5px;
   padding: 3px;
-  padding-left: 10px;
   padding-right: 10px;
+  padding-left: 10px;
   display: inline-block;
   margin-bottom: 5px;
 }
@@ -1071,7 +1051,7 @@ footer .copy .logo-funun img {
 }
 .show-ads .ads-info .ads-header .share-add {
   position: absolute;
-  right: 0;
+  left: 0;
   top: -10px;
 }
 .show-ads .ads-info .ads-header .share-add a {
@@ -1100,7 +1080,7 @@ footer .copy .logo-funun img {
 }
 .show-ads .ads-info .ads-header .ads-information i {
   color: #585858;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 .show-ads .ads-info .ads-header .ads-information a {
   color: #585858;
@@ -1113,7 +1093,7 @@ footer .copy .logo-funun img {
   margin-bottom: 0 !important;
 }
 .show-ads .ads-info .table-infor td {
-  padding-left: 40px !important;
+  padding-right: 40px !important;
 }
 .show-ads .ads-info .table-infor td .question {
   font-weight: bold;
@@ -1121,7 +1101,7 @@ footer .copy .logo-funun img {
 .show-ads .ads-info .table-infor h6 {
   font-size: 22px;
   color: #e2b833;
-  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 10px;
   margin: 10px 0px 20px 0px;
 }
@@ -1139,7 +1119,7 @@ footer .copy .logo-funun img {
   height: 65px;
 }
 .show-ads .ads-info .table-infor .options-btn a i {
-  margin-right: 5px;
+  margin-left: 5px;
   color: #444;
 }
 .show-ads .ads-info .table-infor .options-btn a:hover {
@@ -1151,7 +1131,7 @@ footer .copy .logo-funun img {
 }
 .show-ads .ads-info .table-infor .descr h6 {
   font-size: 22px;
-  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 10px;
   color: #e2b833;
   margin: 10px 0px 20px 0px;
@@ -1169,22 +1149,22 @@ footer .copy .logo-funun img {
 }
 .show-ads .ads-info .contact-data h6 {
   font-size: 22px;
-  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 10px;
   color: #e2b833;
   margin: 10px 0px 20px 0px;
 }
 .show-ads .ads-info .contact-data ul {
   padding: 0;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 .show-ads .ads-info .contact-data ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 .show-ads .ads-info .contact-data ul li i {
   font-size: 20px;
-  margin-right: 10px;
+  margin-left: 10px;
   color: #444;
 }
 .show-ads .ads-info .contact-data ul li span {
@@ -1230,11 +1210,11 @@ footer .copy .logo-funun img {
 }
 .show-ads .comments .rebort span {
   font-size: 13px;
-  margin-left: 2px;
+  margin-right: 2px;
 }
 .show-ads .comments h6 {
   font-size: 25px;
-  padding-left: 20px;
+  padding-right: 20px;
   color: #e2b833;
   padding-top: 10px;
   margin: 10px 0px 20px 0px;
@@ -1248,7 +1228,7 @@ footer .copy .logo-funun img {
   border: 1px solid #eee;
   position: relative;
   padding: 15px;
-  padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 2px !important;
 }
 .show-ads .comments .on-comment .com-name {
@@ -1262,7 +1242,7 @@ footer .copy .logo-funun img {
 .show-ads .comments .on-comment .time {
   position: absolute;
   top: 10%;
-  right: 1%;
+  left: 1%;
   font-size: 10px;
   color: #444;
 }
@@ -1286,7 +1266,7 @@ footer .copy .logo-funun img {
   border: 1px solid #fff;
   position: absolute;
   top: -5%;
-  right: 45%;
+  left: 45%;
   text-align: center;
   font-size: 15px;
 }
@@ -1357,7 +1337,7 @@ footer .copy .logo-funun img {
 .show-ads .related-ads .card .card-body .card-departm {
   margin-top: 10px;
   width: 50%;
-  float: left;
+  float: right;
 }
 .show-ads .related-ads .card .card-body .card-departm a {
   color: #000;
@@ -1392,7 +1372,7 @@ footer .copy .logo-funun img {
   padding: 10px;
 }
 .show-ads .related-ads .card .card-footer .price {
-  margin-left: 60px;
+  margin-right: 60px;
   color: #D7127B;
 }
 .show-ads .related-ads .card-person-info {
@@ -1430,7 +1410,7 @@ footer .copy .logo-funun img {
 }
 
 .blacklist {
-  text-align: left;
+  text-align: right;
   margin-top: 90px;
   margin-bottom: 180px;
 }
@@ -1458,143 +1438,9 @@ footer .copy .logo-funun img {
   padding: 10px;
 }
 
-.commition {
-  margin-top: 40px;
-}
-.commition .commition-header {
-  font-size: 30px;
-  color: #e2b833;
-}
-.commition .commition-calc {
-  font-size: 30px;
-  color: #e2b833;
-  margin-top: 30px;
-}
-.commition .calc-par span {
-  font-weight: bold;
-}
-.commition .calc-par .form-control {
-  width: 10%;
-  display: inline-block;
-}
-.commition .commition-fee {
-  margin-top: 60px;
-}
-.commition .commition-fee h5 {
-  font-size: 30px;
-  color: #e2b833;
-}
-.commition .table img {
-  width: 60%;
-}
-.commition .transfer,
-.commition .note {
-  margin-top: 40px;
-}
-.commition .transfer .transfer-head {
-  margin-bottom: 30px;
-}
-.commition .transfer .form-control {
-  width: 80%;
-  height: 50px;
-}
-.commition .transfer #textformtextarea {
-  height: 160px !important;
-}
-.commition .transfer .btn {
-  background-color: #e2b833;
-  width: 40%;
-  color: #fff;
-  margin-top: 20px;
-}
-
-.edit-ads {
-  text-align: left;
-  margin-top: 70px;
-  margin-bottom: 80px;
-}
-.edit-ads form input,
-.edit-ads form select {
-  height: calc(2.5em + 0.75rem + 2px);
-}
-.edit-ads form label {
-  color: #e2b833;
-  font-weight: bold;
-}
-.edit-ads form select {
-  font-size: 14px;
-}
-.edit-ads form input {
-  font-size: 14px;
-}
-.edit-ads form .file-upload label {
-  margin-bottom: 0 !important;
-}
-.edit-ads form .img-from-file img {
-  width: 20%;
-}
-.edit-ads form button {
-  color: #fff;
-  background-color: #e2b833;
-  border: 1px solid #e2b833;
-  padding: 10px;
-}
-
-.who-us {
-  margin-top: 80px;
-  margin-bottom: 90px;
-  text-align: right;
-}
-.who-us .who-header {
-  color: #e2b833;
-  font-size: 25px;
-  margin-bottom: 25px;
-}
-.who-us p {
-  color: #777;
-  line-height: 40px;
-}
-.who-us p .big-word {
-  color: #e2b833;
-  font-size: 23px;
-  font-weight: bold;
-}
-
-.contact-section {
-  margin-top: 100px;
-  margin-bottom: 90px;
-}
-.contact-section .contact-header {
-  font-size: 25px;
-}
-.contact-section form .input-msg-subject {
-  border: 0;
-  border-bottom: 1px solid #e6e6e6;
-  padding-bottom: 15px;
-  width: 50%;
-  margin: 20px 0px 20px 0px;
-  padding: 5px;
-}
-.contact-section form .input-msg-subject:focus {
-  box-shadow: none !important;
-  outline: 0 !important;
-}
-.contact-section form .form-text-area {
-  margin-top: 20px;
-}
-.contact-section form .btn-submit-form-contact {
-  text-align: left;
-}
-.contact-section form .btn-submit-form-contact .btn {
-  color: #fff !important;
-  background-color: #e2b833;
-  border-radius: 5px !important;
-  width: 200px;
-}
-
 @media (max-width: 800px) {
   .login {
-    text-align: left;
+    text-align: right;
   }
 
   .search-bar form img {
@@ -1602,7 +1448,7 @@ footer .copy .logo-funun img {
   }
 
   .upper-nav ul {
-    padding-left: 0;
+    padding-right: 0;
   }
 
   .top-header {
@@ -1617,7 +1463,7 @@ footer .copy .logo-funun img {
   }
 
   footer .help-content {
-    padding-left: 0;
+    padding-right: 0;
   }
 
   .show-add-section .add-information .add-opinion .comment-float {
@@ -1649,13 +1495,6 @@ footer .copy .logo-funun img {
     margin-top: 20px;
     overflow: auto;
   }
-  
-  .commition table img {
-    width: 100% !important;
-  }
-  .commition .form-control {
-    width: 100% !important;
-  }
 }
 @media (max-width: 524px) {
   .cards .first-card,
@@ -1672,7 +1511,7 @@ footer .copy .logo-funun img {
   }
 
   footer .social-content {
-    padding-left: 0;
+    padding-right: 0;
   }
 
   footer .copy h5 {
@@ -1683,7 +1522,7 @@ footer .copy .logo-funun img {
     float: none;
     display: block;
     width: 100%;
-    text-align: left;
+    text-align: right;
     margin-top: 10px;
   }
 
@@ -1725,8 +1564,9 @@ footer .copy .logo-funun img {
   .new-ads-most-search .new-ads .card .card-footer {
     margin-top: 10px;
   }
+
   .notifaction-page .card {
-    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 30px !important;
   }
   .notifaction-page i {
@@ -1738,6 +1578,7 @@ footer .copy .logo-funun img {
     margin: 0 !important;
     margin-top: 0 !important;
   }
+
   .show-ads .ads-info .ads-header .share-add {
     position: unset;
   }
@@ -1778,7 +1619,7 @@ footer .copy .logo-funun img {
 .search-and-search-result .arange {
   position: absolute;
   top: 10px;
-  right: 40px;
+  left: 40px;
 }
 .search-and-search-result .arange span {
   font-size: 15px;
@@ -1797,7 +1638,7 @@ footer .copy .logo-funun img {
 .new-ads-most-search .most-search .most-search-header {
   background-color: #F5F5F5;
   height: 50px;
-  text-align: left;
+  text-align: right;
   color: #626262;
 }
 .new-ads-most-search .most-search .most-search-header h5 {
@@ -1833,7 +1674,7 @@ footer .copy .logo-funun img {
   padding: 10px;
 }
 .new-ads-most-search .new-ads .card .card-departm {
-  float: left;
+  float: right;
   width: 33.3333%;
   margin-top: 10px;
 }
@@ -1854,7 +1695,7 @@ footer .copy .logo-funun img {
 }
 .new-ads-most-search .new-ads .card .card-footer .price {
   position: absolute;
-  right: 5%;
+  left: 5%;
   color: #D7127B;
 }
 .new-ads-most-search .new-ads .card-ads-space {
@@ -1882,7 +1723,7 @@ footer .copy .logo-funun img {
   border-radius: 10px;
   padding: 5px;
   top: 20px;
-  left: 20px;
+  right: 20px;
   font-size: 14px;
 }
 .new-ads-most-search .card-img .special-ad i {
@@ -1898,7 +1739,7 @@ footer .copy .logo-funun img {
   border-radius: 5px;
   margin-top: 5px;
   text-decoration: none;
-  margin-right: 6px;
+  margin-left: 6px;
   transition: 0.5s;
 }
 
@@ -1916,3 +1757,5 @@ footer .copy .logo-funun img {
   text-align: center;
   background-color: #e2b833;
 }
+
+/*# sourceMappingURL=style.css.map */

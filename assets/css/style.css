@@ -20,6 +20,25 @@ img {
   width: 100%;
 }
 
+.login .heloo {
+  text-align: right;
+  margin-right: 55px;
+}
+.login .heloo i {
+  color: #68bb2b;
+}
+
+.account-drop-down .btn {
+  border: 2px solid #68bb2b;
+}
+.account-drop-down .btn i {
+  color: #68bb2b !important;
+}
+.account-drop-down .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
 .path {
   text-align: right;
   background-color: #ddd;
@@ -451,8 +470,8 @@ img {
 }
 .departments-side-bar .ads-now .head {
   text-align: right;
-  border: 1px solid #F5F5F5;
-  background-color: #F5F5F5;
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
   padding: 10px;
 }
 .departments-side-bar .ads-now .card {
@@ -491,7 +510,7 @@ img {
   padding: 5px 20px 0 0;
 }
 .departments-side-bar .ads-now .key-words {
-  background-color: #EFEFEF;
+  background-color: #efefef;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -567,7 +586,7 @@ img {
   margin-top: 20px;
   text-align: center;
   height: 420px;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
 .departments-side-bar .most-search .card-space-ads h6 {
   line-height: 420px;
@@ -763,12 +782,12 @@ footer .copy .logo-funun img {
 }
 
 .my-account .my-account-navs {
-  border: 1px solid #F5F5F5;
+  border: 1px solid #f5f5f5;
   margin-top: 50px;
   border-radius: 6px;
 }
 .my-account .my-account-navs .card-header {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   font-size: 18px;
   border-bottom: 0;
   height: 60px;
@@ -780,7 +799,7 @@ footer .copy .logo-funun img {
   padding: 0px;
   padding: 0 20px 0 20px;
   line-height: 65px;
-  border-bottom: 1px solid #F5F5F5;
+  border-bottom: 1px solid #f5f5f5;
   border-radius: 0;
   color: #555;
   font-size: 15px;
@@ -805,7 +824,7 @@ footer .copy .logo-funun img {
   margin-top: 50px;
 }
 .my-account .tab-content .most-search-header {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   height: 50px;
   text-align: right;
   color: #626262;
@@ -822,19 +841,19 @@ footer .copy .logo-funun img {
   font-size: 15px;
 }
 .my-account .tab-content .account-info-form .form-group .form-control {
-  height: calc(1.5em + .75rem + 6px);
+  height: calc(1.5em + 0.75rem + 6px);
 }
 .my-account .tab-content .account-info-form .btn-submit {
   text-align: center;
   margin-top: 10px;
 }
 .my-account .tab-content .account-info-form .btn-submit .btn {
-  background-color: #03BBC3;
+  background-color: #03bbc3;
   color: #fff;
   width: 40%;
 }
 .my-account .messages .card {
-  border: 1px solid #F5F5F5;
+  border: 1px solid #f5f5f5;
   padding: 15px;
   border-radius: 8px;
   margin-top: 25px;
@@ -859,7 +878,7 @@ footer .copy .logo-funun img {
   font-size: 17px;
   border: 0;
   border-radius: 6px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding: 15px;
 }
 .add-ads-add form {
@@ -939,7 +958,7 @@ footer .copy .logo-funun img {
   padding-bottom: 20px;
   padding-top: 20px;
   border: 0;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   margin-bottom: 20px;
   padding-left: 10px;
   border-radius: 5px;
@@ -949,7 +968,7 @@ footer .copy .logo-funun img {
   text-decoration: none;
 }
 .notifaction-page .notification-cards .card .notification-place {
-  color: #69BE45;
+  color: #69be45;
   text-decoration: none;
 }
 .notifaction-page .notification-cards .card i {
@@ -1036,7 +1055,7 @@ footer .copy .logo-funun img {
 .show-ads .department-links a {
   font-size: 14px;
   margin-left: 5px;
-  background-color: #C5C5C5;
+  background-color: #c5c5c5;
   color: #fff;
   border-radius: 5px;
   padding: 3px;
@@ -1061,8 +1080,8 @@ footer .copy .logo-funun img {
   width: 53px;
   height: 53px;
   border-radius: 50%;
-  background-color: #C5C5C5;
-  color: #CE1B1B;
+  background-color: #c5c5c5;
+  color: #ce1b1b;
   text-align: center;
   line-height: 53px;
   font-size: 20px;
@@ -1073,7 +1092,7 @@ footer .copy .logo-funun img {
 }
 .show-ads .ads-info .ads-header .ads-information {
   margin-top: 80px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding: 30px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -1114,7 +1133,7 @@ footer .copy .logo-funun img {
   margin-top: 10px;
   padding: 0;
   line-height: 65px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   width: 100%;
   height: 65px;
 }
@@ -1277,7 +1296,7 @@ footer .copy .logo-funun img {
   width: 100%;
   padding: 10px;
   border: 1px solid #eee;
-  height: calc(1.5em + .75rem + 10px);
+  height: calc(1.5em + 0.75rem + 10px);
 }
 .show-ads .add-comment .comment-form .form-control::placeholder {
   font-size: 13px;
@@ -1291,8 +1310,8 @@ footer .copy .logo-funun img {
   font-size: 13px;
 }
 .show-ads .add-comment .comment-form button {
-  border: 1px solid #D7127B;
-  background-color: #D7127B;
+  border: 1px solid #d7127b;
+  background-color: #d7127b;
   color: #fff;
   padding: 10px;
 }
@@ -1363,7 +1382,7 @@ footer .copy .logo-funun img {
   margin: 0;
 }
 .show-ads .related-ads .card .card-body .card-text a {
-  color: #69BE45;
+  color: #69be45;
   text-decoration: none;
   font-size: 14px;
 }
@@ -1373,7 +1392,7 @@ footer .copy .logo-funun img {
 }
 .show-ads .related-ads .card .card-footer .price {
   margin-right: 60px;
-  color: #D7127B;
+  color: #d7127b;
 }
 .show-ads .related-ads .card-person-info {
   text-align: center;
@@ -1407,6 +1426,169 @@ footer .copy .logo-funun img {
   background-color: #e2b833;
   color: #fff;
   padding: 11px;
+}
+
+.blacklist {
+  text-align: right;
+  margin-top: 90px;
+  margin-bottom: 180px;
+}
+.blacklist h5 {
+  color: #e2b833;
+  font-size: 25px;
+}
+.blacklist p {
+  font-size: 15px;
+}
+.blacklist form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.blacklist form input::placeholder {
+  font-size: 14px;
+}
+.blacklist form button {
+  margin-top: 15px;
+  width: 120px;
+  background-color: #e2b833;
+  border: 1px solid #e2b833;
+  color: #fff;
+  padding: 10px;
+}
+
+.commition {
+  margin-top: 40px;
+}
+.commition .commition-header {
+  font-size: 30px;
+  color: #e2b833;
+}
+.commition .commition-calc {
+  font-size: 30px;
+  color: #e2b833;
+  margin-top: 30px;
+}
+.commition .calc-par span {
+  font-weight: bold;
+}
+.commition .calc-par .form-control {
+  width: 10%;
+  display: inline-block;
+}
+.commition .commition-fee {
+  margin-top: 60px;
+}
+.commition .commition-fee h5 {
+  font-size: 30px;
+  color: #e2b833;
+}
+.commition .table img {
+  width: 60%;
+}
+.commition .transfer,
+.commition .note {
+  margin-top: 40px;
+}
+.commition .transfer .transfer-head {
+  margin-bottom: 30px;
+}
+.commition .transfer .form-control {
+  width: 80%;
+  height: 50px;
+}
+.commition .transfer #textformtextarea {
+  height: 160px !important;
+}
+.commition .transfer .btn {
+  background-color: #e2b833;
+  width: 40%;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.edit-ads {
+  text-align: right;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+.edit-ads form input,
+.edit-ads form select {
+  height: calc(2.5em + 0.75rem + 2px);
+}
+.edit-ads form label {
+  color: #e2b833;
+  font-weight: bold;
+}
+.edit-ads form select {
+  font-size: 14px;
+}
+.edit-ads form input {
+  font-size: 14px;
+}
+.edit-ads form .file-upload label {
+  margin-bottom: 0 !important;
+}
+.edit-ads form .img-from-file img {
+  width: 20%;
+}
+.edit-ads form button {
+  color: #fff;
+  background-color: #e2b833;
+  border: 1px solid #e2b833;
+  padding: 10px;
+}
+
+.who-us {
+  margin-top: 80px;
+  margin-bottom: 90px;
+  text-align: right;
+}
+.who-us .who-header {
+  color: #e2b833;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.who-us p {
+  color: #777;
+  line-height: 40px;
+}
+.who-us p .big-word {
+  color: #e2b833;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.contact-section {
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+.contact-section .contact-header {
+  font-size: 25px;
+}
+.contact-section form .input-msg-subject {
+  border: 0;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 15px;
+  width: 50%;
+  margin: 20px 0px 20px 0px;
+  padding: 5px;
+}
+.contact-section form .input-msg-subject:focus {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+.contact-section form .form-text-area {
+  margin-top: 20px;
+}
+.contact-section form .btn-submit-form-contact {
+  text-align: left;
+}
+.contact-section form .btn-submit-form-contact .btn {
+  color: #fff !important;
+  background-color: #e2b833;
+  border-radius: 5px !important;
+  width: 200px;
 }
 
 @media (max-width: 800px) {
@@ -1523,7 +1705,10 @@ footer .copy .logo-funun img {
     position: unset;
   }
 
-  .login .login-form, .login .rigister-form, .rigister .login-form, .rigister .rigister-form {
+  .login .login-form,
+.login .rigister-form,
+.rigister .login-form,
+.rigister .rigister-form {
     padding: 10px;
     width: 100%;
   }
@@ -1563,6 +1748,13 @@ footer .copy .logo-funun img {
 
   .show-ads .ads-info .ads-header .ads-information {
     margin-top: 20px;
+  }
+
+  .commition table img {
+    width: 100% !important;
+  }
+  .commition .form-control {
+    width: 100% !important;
   }
 }
 .search-and-search-result .card-search {
@@ -1607,7 +1799,7 @@ footer .copy .logo-funun img {
   margin-top: 80px;
 }
 .new-ads-most-search .most-search .most-search-header {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   height: 50px;
   text-align: right;
   color: #626262;
@@ -1623,7 +1815,7 @@ footer .copy .logo-funun img {
   margin-top: 20px;
   text-align: center;
   height: 420px;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
 .new-ads-most-search .most-search .card-space-ads h6 {
   line-height: 420px;
@@ -1635,7 +1827,7 @@ footer .copy .logo-funun img {
   line-height: 211px;
 }
 .new-ads-most-search .new-ads .card {
-  border: 1px solid #E9E9E9;
+  border: 1px solid #e9e9e9;
   margin-top: 20px;
 }
 .new-ads-most-search .new-ads .card .card-title {
@@ -1655,26 +1847,26 @@ footer .copy .logo-funun img {
   font-size: 15px;
 }
 .new-ads-most-search .new-ads .card .card-departm a .name {
-  color: #69BE45;
+  color: #69be45;
 }
 .new-ads-most-search .new-ads .card .card-departm img {
   width: 20px;
 }
 .new-ads-most-search .new-ads .card .card-footer {
   border: 0;
-  background-color: #ECECEC;
+  background-color: #ececec;
 }
 .new-ads-most-search .new-ads .card .card-footer .price {
   position: absolute;
   left: 5%;
-  color: #D7127B;
+  color: #d7127b;
 }
 .new-ads-most-search .new-ads .card-ads-space {
   border: 0;
   margin-top: 20px;
   text-align: center;
   height: 191px;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
 .new-ads-most-search .new-ads .card-ads-space h6 {
   line-height: 191px;
