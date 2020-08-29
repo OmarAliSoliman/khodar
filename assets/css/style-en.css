@@ -112,6 +112,19 @@ img {
 .top-header .social {
   text-align: right;
 }
+
+
+.top-header .social .lang {
+  color: rgb(83, 83, 83);
+  text-decoration: none;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  padding: 5px;
+  direction: rtl;
+  font-size: 14px;
+  display: inline-block;
+}
+
 .top-header .social i {
   color: #555;
   margin-left: 5px;
@@ -210,10 +223,7 @@ img {
 .upper-nav .login ul li:last-child {
   border-left: 1px solid #ddd;
 }
-.upper-nav .login .lang a {
-  color: #000;
-  text-decoration: none;
-}
+
 
 .header-img {
   margin-top: 5px;
