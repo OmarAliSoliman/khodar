@@ -149,6 +149,15 @@ img {
 .top-header .social i:hover {
   color: #e2b833;
 }
+.top-header .social .lang {
+  color: #535353;
+  text-decoration: none;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  display: inline-block;
+}
 
 .upper-nav {
   padding: 5px;
@@ -157,7 +166,7 @@ img {
   margin-top: -10px;
 }
 .upper-nav .logo img {
-  width: 205px;
+  width: 174px;
   height: 71px;
 }
 .upper-nav .logo span {
@@ -208,10 +217,6 @@ img {
 }
 .upper-nav .login ul li:last-child {
   border-right: 1px solid #ddd;
-}
-.upper-nav .login .lang a {
-  color: #000;
-  text-decoration: none;
 }
 
 .header-img {
@@ -611,7 +616,7 @@ footer .logo {
   color: #fff;
 }
 footer .logo img {
-  width: 205px;
+  width: 174px;
   height: 71px;
 }
 footer .logo .logo-content {

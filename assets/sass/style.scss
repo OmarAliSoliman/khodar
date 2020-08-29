@@ -182,6 +182,15 @@ img {
         color: $mainColor;
       }
     }
+    .lang {
+      color: rgb(83, 83, 83);
+      text-decoration: none;
+      border: 1px solid #DDD;
+      border-radius: 5px;
+      padding: 5px;
+      font-size: 14px;
+      display: inline-block;
+    }
   }
 }
 
@@ -191,7 +200,7 @@ img {
   .logo {
     margin-top: -10px;
     img {
-      width: 205px;
+      width: 174px;
       height: 71px;
     }
     span {
@@ -243,12 +252,6 @@ img {
       }
       li:last-child {
         border-right: 1px solid #ddd;
-      }
-    }
-    .lang {
-      a {
-        color: #000;
-        text-decoration: none;
       }
     }
   }
@@ -706,7 +709,7 @@ footer {
     position: relative;
     color: #fff;
     img {
-      width: 205px;
+      width: 174px;
       height: 71px;
     }
     .logo-content {
